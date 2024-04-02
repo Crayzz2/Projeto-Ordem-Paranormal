@@ -1,0 +1,83 @@
+body{
+    background-color: #121212;
+}
+#background{
+    background: rgb(235, 235, 235);
+    width: 290px;
+    height: 350px;
+    position: relative;
+    left:39%;
+    margin-top: 150px;
+}
+img{
+    width: 50%;
+}
+#image{
+    width: 150px;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    left: 23%;
+}
+#user{
+    position: relative;
+    left: 15%;
+    top: 15%;
+    
+}
+#inpute{
+    position: relative;
+    left: 15%;
+    top: 17%;
+    
+}
+#loginuser{
+    width: 200px;
+}
+#password{
+    position: relative;
+    left: 15%;
+    top: 18%;
+}
+#inputp{
+    position: relative;
+    left: 15%;
+    top: 19%;
+}
+#acesspass{
+    width: 200px;
+}
+#select{
+    position: relative;
+    left: 14%;
+    top: 21%;
+    border-radius: 1px;
+}
+label{
+    position: relative;
+    bottom: 2px;
+}
+button{
+    background: rgb(47,47,47); 
+    border-radius: 6px; 
+    padding: 10px 80px; 
+    cursor: pointer; 
+    color: #fff; 
+    border: none; 
+    font-size: 16px;
+}
+#enter{
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+#esq{
+    position: relative;
+    left: 15%;
+    top: 26%;
+}
+/* *{
+    border: 2px solid black;
+    font-size: 10px;
+    font-family: arial;
+}  */

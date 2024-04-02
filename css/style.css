@@ -1,0 +1,316 @@
+body{
+    text-align: center;
+    background-color: #121212;
+}
+#dices{
+    padding-top: 50px;
+}
+#resultado, #defesa, #pericias{
+    color: white;
+}
+.pericia{
+    width: 10px;
+    height: 5px;
+    padding: 15px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+#deftotal, #defagi, #equip, #outros, #esq, #bloq{
+    width: 20px;
+    height: 15px;
+    padding: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+#mod, #peR, #qntdados, #desl{
+    width: 50px;
+    height: 15px;
+    padding: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+#calcdef, .dice, #edit, #bloqesq{
+    padding: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+label{
+    color:white
+}
+#agilidade, #forca, #intelecto, #presenca, #vigor{
+    width: 30px;
+    height: 15px;
+    padding: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+#pers, #jog{
+    width: 100px;
+    height: 15px;
+    padding: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+#origem, #classe, #nex{
+    padding: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+.expertise{
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+#vps{
+    color: white;
+    display: flexbox;
+    justify-content: space-between;
+}
+.rollperi, .resrollperi{
+    width: 60px;
+    height: 20px;
+    padding: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+.seletor{
+    pointer-events: none;
+}
+.btnPeri{
+    width: 100px;
+    padding: 7px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+.stats, .statsmax{
+    width: 60px;
+    height: 15px;
+    padding-top: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+    font-size: larger;
+}
+.stats{
+    width: 45px;
+}
+#statsdiv{
+    padding: 10px;
+    height: 170px;
+    color: white;
+}
+#pvdiv, #pediv, #sandiv{
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    background-color: rgb(47, 47, 47);
+
+}
+#btnataques{
+    padding: 30px 120px 30px 120px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+#btnpoderes{
+    padding: 30px 120px 30px 120px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+#btnhabilidades{
+    padding: 30px 110px 30px 110px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+#btnrituais{
+    padding: 30px 125px 30px 125px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+#btninventario{
+    padding: 30px 115px 30px 115px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+#poderes, #habilidades, #inventario, #rituais, #ataques{
+    margin: 20px;
+    display: none;
+}
+.btnpoder, .btnhabilidade, .btnitem, .btnritual, .btnataque{
+    text-align: center;
+    width: fit-content;
+    position: relative;
+    bottom: 20px;
+    padding: 17px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+.desc{
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+    display: none;
+}
+.btnar{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+.arma, .teste, .dano, .crit, .alcance, .espec{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+    margin-left: 6 px;
+    margin-top: 2px;
+}
+.lblataques{
+    margin: 80px;
+}
+#resultatk{
+    color: white;
+}
+.btnrit{
+    text-align: center;
+    width: fit-content;
+    position: relative;
+    bottom: 20px;
+    padding: 17px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);   
+}
+.inprit{
+    text-align: center;
+    width: fit-content;
+    position: relative;
+    bottom: 20px;
+    padding: 17px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+.descrit{
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+#ritual1, #ritual2, #ritual3{
+    display: none;
+}
+
+.categ, #ptsprest, #carga{
+    width: 30px;
+    height: 25px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+    margin-left: 6 px;
+    margin-top: 2px;
+}
+#patentes, #creditos{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+    margin-left: 6 px;
+    margin-top: 2px;
+}
+#itensesq, #itensdir{
+    display: inline-block;
+}
+#itensesq{
+    margin-right: 50px;
+}
+#itensdir{
+    margin-left: 50px;
+}
+.item{
+    width: 250px;
+    padding: 10px 5px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+    margin-left: 6 px;
+    margin-top: 2px;
+}
+.categoria, .espaco{
+    width: 40px;
+    padding: 10px 0px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+    margin-left: 6 px;
+    margin-top: 2px;
+    text-align: center;
+}
+/* .input-container{
+    width: 200px;
+    position: relative;
+} */
+/* .label{
+    position: absolute;
+    left:10px;
+    top:14px;
+    transition: all 0.2s;
+    padding: 0 2px;
+    z-index: 1;
+    color: #b3b3b3;
+}
+.text-input{
+    padding: 0.8rem;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #2f2c45;
+    background: #272530;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    transition: all 0.3s;
+    color: #fff;
+}
+.label::before{
+    content: "";
+    height: 5px;
+    background: #272530;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    width: 100%;
+    z-index: -1;
+}
+.text-input:focus{
+    border: 2px solid #7e4ccb;
+}
+.text-input:focus + .label,.filled{
+    top: -10px;
+    color: #7e4ccb;
+    font-size: 14px;
+}
+.text-input::placeholder{
+    font-size: 16px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.text-input:focus::placeholder{
+    opacity: 1;
+} */
